@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/* CSS Document */
+#geral {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: white;   
+}
+
+#superior {
+    width: 100%;
+    max-width: 100%;
+    height: 9.5rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 1rem 1rem;
+    background: #AFCFDD;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.linha {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    max-width: 90vw;
+    background: #075C85;
+    filter: blur(2.39px);  
+    left: 50%;
+}
+
+#logoMenu{
+    position:relative;
+    top: -4rem;
+    left: -3.3rem; 
+}
+
+#centro{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+#offcanvasNavbar{
+    position: fixed;
+    background-color: #9BC0D0;
+}
+
+
+#sanduiche{
+   position:relative;
+   top: -3.8rem;
+   left: -0.2rem; 
+   font-size: 3.5rem;
+   color: #075D87;
+}
+
+@media only screen and (max-width: 480px) {
+    #geral {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #superior {
+        max-width: 100%;
+    }
+}
+
+
+
